@@ -1,0 +1,10 @@
+.bannerBackground {
+  background-color: cadetblue;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 0;
+}
+.bannerBackground .mainTitle {
+  text-align: center;
+  margin: 0;
+}/*# sourceMappingURL=TitleBanner.css.map */

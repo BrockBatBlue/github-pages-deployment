@@ -1,0 +1,10 @@
+.listBackground {
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+.listBackground .accordion {
+  background-color: blanchedalmond;
+}
+.listBackground .accordion-item {
+  background-color: cadetblue;
+}/*# sourceMappingURL=AccordionList.css.map */
