@@ -2,9 +2,11 @@
   margin-right: 2vw;
   margin-left: 2vw;
 }
-.listBackground .accordion {
-  background-color: blanchedalmond;
+.listBackground button {
+  color: #3e4a64;
+  font-weight: bold;
 }
 .listBackground .accordion-item {
-  background-color: cadetblue;
+  background-color: #2b303a;
+  color: #fffded;
 }/*# sourceMappingURL=AccordionList.css.map */
