@@ -1,4 +1,5 @@
 import "../styles/AccordionList.css";
+import images from "../images.json";
 
 const AccordionList = () => {
   return (
@@ -134,7 +135,8 @@ const AccordionList = () => {
                 <br />
                 <img
                   style={{ height: 180, width: 600 }}
-                  src="../homepage-packageJSON.png"
+                  id={images[0].id}
+                  src={images[0].source}
                   sr-only="homepage configuration: homepage: your-username.github.io/your-repo-name"
                   alt="homepage configuration: homepage: your-username.github.io/your-repo-name"
                 ></img>
@@ -142,7 +144,8 @@ const AccordionList = () => {
                 <br />
                 <img
                   style={{ height: 200, width: 350 }}
-                  src="../scripts-packageJSON.png"
+                  id={images[1].id}
+                  src={images[1].source}
                   sr-only="scripts configuration: scripts configuration for predeployment and deployment"
                   alt="scripts configuration: scripts configuration for predeployment and deployment"
                 ></img>
