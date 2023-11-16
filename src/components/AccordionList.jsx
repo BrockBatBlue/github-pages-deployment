@@ -216,7 +216,7 @@ const AccordionList = () => {
                   Navigate from your GitHub repository to the settings page.
                 </li>
                 <li>
-                  Scroll to the "GitHub Pages" section and selege the gh-pages
+                  Scroll to the "GitHub Pages" section and select the gh-pages
                   branch as the source for your GitHub Pages site.
                 </li>
                 <li>
