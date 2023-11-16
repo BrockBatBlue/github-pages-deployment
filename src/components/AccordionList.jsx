@@ -133,8 +133,8 @@ const AccordionList = () => {
                 </li>
                 <br />
                 <img
-                  style={{ height: 200, width: 600 }}
-                  src="your-repo-name/homepage-packageJSON.png"
+                  style={{ height: 180, width: 600 }}
+                  src="github-pages-deployment/homepage-packageJSON.png"
                   sr-only="homepage configuration: homepage: your-username.github.io/your-repo-name"
                   alt="homepage configuration: homepage: your-username.github.io/your-repo-name"
                 ></img>
@@ -142,7 +142,7 @@ const AccordionList = () => {
                 <br />
                 <img
                   style={{ height: 200, width: 350 }}
-                  src="your-repo-name/scripts-packageJSON.png"
+                  src="github-pages-deployment/scripts-packageJSON.png"
                   sr-only="scripts configuration: scripts configuration for predeployment and deployment"
                   alt="scripts configuration: scripts configuration for predeployment and deployment"
                 ></img>
