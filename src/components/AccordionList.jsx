@@ -134,7 +134,7 @@ const AccordionList = () => {
                 <br />
                 <img
                   style={{ height: 180, width: 600 }}
-                  src="github-pages-deployment/homepage-packageJSON.png"
+                  src="../homepage-packageJSON.png"
                   sr-only="homepage configuration: homepage: your-username.github.io/your-repo-name"
                   alt="homepage configuration: homepage: your-username.github.io/your-repo-name"
                 ></img>
@@ -142,7 +142,7 @@ const AccordionList = () => {
                 <br />
                 <img
                   style={{ height: 200, width: 350 }}
-                  src="github-pages-deployment/scripts-packageJSON.png"
+                  src="../scripts-packageJSON.png"
                   sr-only="scripts configuration: scripts configuration for predeployment and deployment"
                   alt="scripts configuration: scripts configuration for predeployment and deployment"
                 ></img>
@@ -182,8 +182,8 @@ const AccordionList = () => {
                   This automatically creates a new branch called gh-pages.
                 </li>
                 <li>
-                  Make sure you are on that branch, then push to that branch as
-                  the final version of your website.
+                  It will then automatically deploy to your GitHub pages with a
+                  live site!
                 </li>
               </ul>
             </div>
@@ -210,14 +210,14 @@ const AccordionList = () => {
               <strong>Back to your GitHub Repo</strong>
               <ul>
                 <li>
-                  Navigate from your GitHub repository to the settings page
+                  Navigate from your GitHub repository to the settings page.
                 </li>
                 <li>
                   Scroll to the "GitHub Pages" section and selege the gh-pages
                   branch as the source for your GitHub Pages site.
                 </li>
                 <li>
-                  <strong>Deploy!</strong>
+                  <strong>Deploy!</strong> Or it should already be deployed 😉
                 </li>
               </ul>
             </div>
@@ -249,7 +249,7 @@ const AccordionList = () => {
                 </li>
                 <li>
                   If you need to update your site, then you need to repeat
-                  instructions 4-6 to rebuild and deploy
+                  instructions 4-6 to rebuild and deploy.
                 </li>
                 <li>
                   <strong>Enjoy your new site!</strong>😎
