@@ -131,18 +131,25 @@ const AccordionList = () => {
                   To configure your package.json file, open the file and add the
                   following information:
                 </li>
+                <br />
                 <img
-                  style={{ height: 200, width: 550 }}
-                  src="../homepage-packageJSON.png"
+                  style={{ height: 200, width: 600 }}
+                  src="your-repo-name/homepage-packageJSON.png"
                   sr-only="homepage configuration: homepage: your-username.github.io/your-repo-name"
+                  alt="homepage configuration: homepage: your-username.github.io/your-repo-name"
                 ></img>
                 <br />
                 <br />
                 <img
-                  style={{ height: 200, width: 300 }}
-                  src="../scripts-packageJSON.png"
-                  sr-only="scripts configuration: scripts configuration picture for predeployment and deployment"
+                  style={{ height: 200, width: 350 }}
+                  src="your-repo-name/scripts-packageJSON.png"
+                  sr-only="scripts configuration: scripts configuration for predeployment and deployment"
+                  alt="scripts configuration: scripts configuration for predeployment and deployment"
                 ></img>
+                <li>
+                  Don't forget to replace the default username and
+                  your-repo-name with your username and repo name.
+                </li>
               </ul>
             </div>
           </div>
@@ -165,14 +172,20 @@ const AccordionList = () => {
             className="accordion-collapse collapse"
           >
             <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees
-              control the overall appearance, as well as the showing and hiding
-              via CSS transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>Time to Deploy your app</strong>
+              <ul>
+                <li>
+                  Run this command in your terminal:{" "}
+                  <strong>npm run deploy</strong>
+                </li>
+                <li>
+                  This automatically creates a new branch called gh-pages.
+                </li>
+                <li>
+                  Make sure you are on that branch, then push to that branch as
+                  the final version of your website.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -194,14 +207,19 @@ const AccordionList = () => {
             className="accordion-collapse collapse"
           >
             <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees
-              control the overall appearance, as well as the showing and hiding
-              via CSS transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>Back to your GitHub Repo</strong>
+              <ul>
+                <li>
+                  Navigate from your GitHub repository to the settings page
+                </li>
+                <li>
+                  Scroll to the "GitHub Pages" section and selege the gh-pages
+                  branch as the source for your GitHub Pages site.
+                </li>
+                <li>
+                  <strong>Deploy!</strong>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -223,14 +241,20 @@ const AccordionList = () => {
             className="accordion-collapse collapse"
           >
             <div className="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classNamees that we use to style each element. These classNamees
-              control the overall appearance, as well as the showing and hiding
-              via CSS transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <strong>The waiting game</strong>
+              <ul>
+                <li>
+                  After waiting awhile - up to 10 minutes, check your deployed
+                  site to make sure nothing is broken.
+                </li>
+                <li>
+                  If you need to update your site, then you need to repeat
+                  instructions 4-6 to rebuild and deploy
+                </li>
+                <li>
+                  <strong>Enjoy your new site!</strong>😎
+                </li>
+              </ul>
             </div>
           </div>
         </div>
